@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58292180bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/shivamlogo.jpg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="headers">
+                <p>Web Developer</p>
+                <h1>Hi,I'am <span>Shivam Gole</span> </br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/back.jpg" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>"Hello, readers. My name is Shivam Gole, and I am currently in my fourth year of studies, pursuing a degree in Information Technology from NIT Raipur. Throughout my academic journey, I have developed a keen interest in Solving new problems and Web development. I have had the opportunity to work on various projects and learn different computer science subjects.
+                        Looking ahead, my goal is to pursue a career in software engineering and contribute to the development of innovative solutions that positively impact people's lives. I'm thrilled to be part of the ever-evolving IT field and I look forward to expanding my knowledge and skills in order to make a meaningful impact.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education') ">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span></br>
+                                Creating Interactive WebApps</li>
+                            <li><span>Problem Solver</span></br>
+                                Solving new Problems</li>
+                            <li><span>Video Editing</span></br>
+                                Editing via Mobile phones</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Created different WebApps</span></br>
+                                Blog App , Weather App , Disney+Hostar Clone</li>
+                            <li><span>Edited Videos for Instagram pages</span></br>
+                                Unofficial / official both</li>
+                            <li><span>Video Editing</span></br>
+                                Editing via Mobile phones</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>National Intitute of Technology, Raipur</span></br>
+                                B Tech in Information Technology</li>
+                            <li><span>Career Point World School, Bilaspur</span></br>
+                                Class 12th CBSE Board</li>
+                            <li><span>D.A.V. Public School , Korba</span></br>
+                                Class 10th CBSE Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services.................... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devolopment</h2>
+                    <p>
+                        Can help you in resolving your basic doubts regarding web development. How to start , from where to start ,
+                        how to enhance your skills. The trending Tech-Stack in demand . Any many other discussions.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Problem solve</h2>
+                    <p>
+                        I can help you in solving different problems based on Data Structures and Algorithms , 
+                        Different aptitute problems and Math based problems. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>
+                        I like Editing videos using different Apps in the mobile phone itself , Can send me via drive 
+                        links to edit it.  
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio------------------- -->.
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Blog App</h3>
+                        <p>This App is built using MERN stack i.e. MongoDB, ExpressJS , ReactJS , NodeJS which is a full
+                            stack project. Here a user can login , signup , logout their id. They can perform operation of Delete, Post,
+                            Edit their Blog . They can see the Blogs of others also by using the All Post button in the Navigation
+                            Bar.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This weather App is made using ReactJS which is a frontend javascript library. Here I have used a real
+                            world API Openweather. This App shows the current temperature , time, humidity , date , pressure and
+                            many more in its interface of any location you mention there.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>ML App</h3>
+                        <p>This a project based on Machine learning for predicting some useful informations/conclusion regarding the particular problem,
+                            This is an ongoing project based on different ML algorithms using a raw dataset.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+        
+    </div>
+
+    <!-- ----------Contact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>avigole8094@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0999999999</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-gole-134345235"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AviShivamG"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="SHIVAM GOLE.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Shivamsportfolio.com | All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenus = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenus.style.right = "0";
+        }
+        function closemenu(){
+            sidemenus.style.right = "-200px";
+        }
+    </script>
+
+</body>
+<!-- <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form> -->
+  
+  <script>
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbzgaEag0_izm6ePKcSRBUjPzIx8i3LIgMghI2wIpulpJ_KRBt5SBxKJ-p1H-JxzshvV/exec';
+    // const form = document.getElementById('submit-to-google-sheet');
+    // const msg = document.getElementById('msg');
+
+    // form.addEventListener('submit', e => {
+    //     e.preventDefault();
+    //     const formData = new FormData(form);
+    //     fetch(scriptURL, { method: 'POST', body: formData })
+    //         .then(response => {
+    //             if (response.ok) {
+    //                 msg.innerHTML = 'Successfully Sent';
+    //                 setTimeout(function () {
+    //                     msg.innerHTML = '';
+    //                 }, 5000);
+    //                 form.reset();
+    //             } else {
+    //                 throw new Error('Error: ' + response.status);
+    //             }
+    //         })
+    //         .catch(error => {
+    //             console.error('Error!', error);
+    //             msg.innerHTML = 'An error occurred. Please try again later.';
+    //         });
+    // });
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzgaEag0_izm6ePKcSRBUjPzIx8i3LIgMghI2wIpulpJ_KRBt5SBxKJ-p1H-JxzshvV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Successfully Sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            } , 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Problem Solver", "Video Editor"],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</html>
+
